@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10050d"><title>Ahmed & Aya ♡ — حكايتنا</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg class="svg-defs" aria-hidden="true"><defs><clipPath id="heartClip" clipPathUnits="objectBoundingBox"><path d="M .5 .94 C .43 .87 .02 .59 .02 .31 C .02 .12 .16 .04 .31 .04 C .4 .04 .47 .09 .5 .19 C .54 .09 .61 .04 .7 .04 C .85 .04 .98 .13 .98 .31 C .98 .57 .69 .82 .5 .94 Z"/></clipPath></defs></svg>
+  <div class="ambient"><i>♡</i><i>♥</i><i>♡</i><i>♥</i><i>♡</i></div>
+  <main id="lock" class="lock-screen">
+    <div class="lock-card glass"><div class="lock-icon">♡</div><div class="script lock-name">Ahmed & Aya</div><p>حكايتنا الصغيرة ♡</p>
+      <form id="unlockForm"><label class="sr" for="pass">كلمة المرور</label><input id="pass" type="password" placeholder="اكتبي كلمة المرور..." autocomplete="off" required><button class="eye" type="button" aria-label="إظهار كلمة المرور">♡</button><button class="primary">ادخلي حكايتنا</button><small id="passHint">مكاننا الخاص ♡</small></form>
+    </div>
+  </main>
+  <div id="site" class="site hidden">
+    <header class="topbar glass"><a class="brand script" href="#home" data-page="home">Ahmed & Aya ♡</a><nav><button data-page="home">الرئيسية</button><button data-page="gallery">صورنا</button><button data-page="message">رسالة</button><button data-page="social">إنستجرام</button><button data-page="music">أغنيتنا</button></nav><button class="icon-btn heart" aria-label="أعجبني">♥</button><button class="menu-btn" aria-label="القائمة">☰</button></header>
+    <!-- غيّر src لصورة الغلاف هنا، مثال: assets/photos/hero.jpg -->
+    <section id="home" class="page active"><div class="hero glass"><div class="hero-art"><div class="heart-photo"><img src="assets/photos/p2.jpeg" alt="صورتكم المفضلة" onerror="this.classList.add('missing')"><span class="photo-hint">حط صورتكم هنا ♡</span></div><span class="float-heart h1">♥</span><span class="float-heart h2">♡</span></div><div class="hero-copy"><div class="script hero-name">Ahmed & Aya</div><h1>حكايتنا.. أحلى حكاية ♡</h1><p>كل لحظة سوا بتبقى ذكرى بنحبها أكتر ♡</p><div class="quick-links"><button data-page="gallery"><b>▧</b>صورنا</button><button data-page="message"><b>♡</b>رسالة</button><button data-page="social"><b>◎</b>إنستجرام</button><button data-page="music"><b>♫</b>أغنيتنا</button></div><span class="scroll-cue">⌄</span></div></div></section>
+    <section id="gallery" class="page"><div class="section-head"><h2>صورنا وذكرياتنا <span>♥</span></h2><p>غيّروا مسار src لكل صورة مباشرة في index.html ♡</p></div><div class="filter-row"><button class="filter selected" data-filter="all">صورنا A&A</button></div><div class="gallery-grid" id="galleryGrid">
+      <button class="gallery-item" data-category="couple"><span class="empty-hint">  ♡</span><img src="assets/photos/p1.jpeg" alt="ذكرى 1"></button>
+      <button class="gallery-item" data-category="couple"><span class="empty-hint">♡</span><img src="assets/photos/p2.jpeg" alt="ذكرى 2"></button>
+      <button class="gallery-item" data-category="travel"><span class="empty-hint">  ♡</span><img src="assets/photos/p3.jpeg" alt="ذكرى 3"></button>
+      <button class="gallery-item" data-category="special"><span class="empty-hint">  ♡</span><img src="assets/photos/p4.jpeg" alt="ذكرى 4"></button>
+      <button class="gallery-item" data-category="couple"><span class="empty-hint">  ♡</span><img src="assets/photos/p5.jpeg" alt="ذكرى 5"></button>
+      <button class="gallery-item" data-category="travel"><span class="empty-hint">  ♡</span><img src="assets/photos/p6.jpeg" alt="ذكرى 6"></button>
+      <button class="gallery-item" data-category="special"><span class="empty-hint">  ♡</span><img src="assets/photos/p7.jpeg" alt="ذكرى 7"></button>
+      <button class="gallery-item" data-category="couple"><span class="empty-hint">  ♡</span><img src="assets/photos/p8.jpeg" alt="ذكرى 8"></button>
+      <button class="gallery-item" data-category="travel"><span class="empty-hint">  ♡</span><img src="assets/photos/p9.jpeg" alt="ذكرى 9"></button>
+      <button class="gallery-item" data-category="special"><span class="empty-hint">  ♡</span><img src="assets/photos/p10.jpeg" alt="ذكرى 10"></button>
+      <button class="gallery-item" data-category="couple"><span class="empty-hint">  ♡</span><img src="assets/photos/p11.jpeg" alt="ذكرى 11"></button>
+      <button class="gallery-item" data-category="travel"><span class="empty-hint">  ♡</span><img src="assets/photos/p12.jpeg" alt="ذكرى 12"></button>
+    </div></section>
+    <section id="message" class="page"><div class="section-head"><h2>رسالة ليكي <span>♥</span></h2><p>كلام من قلبي ليكي ♡</p></div><article class="letter glass"><div class="letter-mark">❝</div><p>طبعا نت عارف ان نا م بزعلك بقصد اكيد ف عملت الويب د ليك يعني غير القديم وعامة كلامنا واتس مش هنا .</p><p>بدانا كلام في شهر 4 او يوم 29 مارس 2026 ومش عارف وصلنا هنا ازاي بس وصلنا وباذن الله مكملين سوا ي حبيبي .</p><p>LOVE YOU Y YUOTTI  ♡</p><div class="signature">— A7MED</div></article></section>
+    <section id="social" class="page"><div class="section-head"><h2>اكونتاتنا <span>♥</span></h2><p>اكونتات بتكلم بعض من غير م تعمل فولو    ♡</p></div><div class="social-cards"><article class="glass social-card"><span class="social-icon">◎</span><h3>Ahmed</h3><p> اكونتي  </p><a class="primary" href="https://instagram.com/a_7_m_e_d_o_1?mdxt=bnU5MTJsYzdsMjJr&utm_source=qr" target="_blank" rel="noreferrer">Instagram ↗</a></article><article class="glass social-card"><span class="social-icon">◎</span><h3>Aya</h3><p>اكونتك</p><a class="primary" href="https://instagram.com/a_y_u_o_t_a_1?psln=MTlwZ2d4N25nMndqeg%3D%3D&utm_source=qr" target="_blank" rel="noreferrer">Instagram ↗</a></article></div></section>
+    <section id="music" class="page"><div class="section-head"><h2>أغنيتنا <span>♥</span></h2><p>الأغنية اللي بنحبها ♡</p></div><div class="music-card glass"><div class="record"><span>♡</span></div><p class="track">KELMA </p><p class="artist">RAMY SABRY </p><div class="progress"><span></span></div><div class="time"><small>♡</small><small>♡</small></div><div class="controls"><button id="prev">|◀</button><button id="play" class="play">▶</button><button id="next">▶|</button><button id="likeSong">♥</button></div><small class="music-note">اغنيه بنحبها وعملت مشكله انت بسببها قبل كد     ♡</small><audio id="audio" preload="metadata" src="assets/kelma.mp3" autoplay></audio></div></section>
+    <footer>directed BY A7med Omara  <a href="https://instagram.com/a_7_m_e_d_o_1?mdxt=bnU5MTJsYzdsMjJr&utm_source=qr" target="_blank">instagram</a> &copy;   </footer>
+  </div>
+  <div id="viewer" class="viewer hidden"><button class="close-view" aria-label="إغلاق">×</button><button class="view-prev">‹</button><img alt="لحظة من ذكرياتنا"><button class="view-next">›</button><span class="view-count"></span></div>
+  <script src="script.js"></script>
+</body></html>
